@@ -74,3 +74,38 @@ footer {
   border-radius: 10px; /* Esquinas redondeadas */
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); /* Sombra para dar efecto de profundidad */
 }
+/* Estilo general para los botones */
+button {
+  background-color: #444; /* Fondo gris oscuro */
+  color: white; /* Texto blanco */
+  border: none; /* Sin borde */
+  padding: 12px 24px; /* Espaciado interno */
+  font-size: 18px; /* Tamaño de fuente */
+  font-weight: bold; /* Texto en negrita */
+  border-radius: 5px; /* Bordes redondeados */
+  cursor: pointer; /* Aparece como puntero al pasar el ratón */
+  transition: all 0.3s ease; /* Transición suave para efectos de hover */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3); /* Sombra para dar profundidad */
+}
+
+/* Efecto hover para los botones */
+button:hover {
+  background-color: white; /* Fondo más claro al pasar el ratón */
+  transform: translateY(-2px); /* Levanta ligeramente el botón */
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.5); /* Aumenta la sombra para dar más profundidad */
+}
+
+/* Efecto focus para los botones cuando se hace clic */
+button:focus {
+  outline: none; /* Quita el borde predeterminado de enfoque */
+  box-shadow: 0 0 0 3px rgba(255, 255, 255, 0.6); /* Sombra clara alrededor del botón */
+}
+
+/* Estilo adicional para el botón de descarga, si se desea un estilo diferente */
+a button {
+  background-color: #282828; /* Fondo verde */
+}
+
+a button:hover {
+  background-color: #181818; /* Fondo verde más oscuro al pasar el ratón */
+}
