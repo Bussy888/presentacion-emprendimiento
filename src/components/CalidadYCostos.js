@@ -37,6 +37,14 @@ const PresentacionMVM = () => {
                     Descargar Evaluacion de Control de Calidad
                   </motion.button>
                 </a>
+                <motion.img
+                          src="/EstructuraCostos.png"  // Reemplaza con la URL de tu imagen
+                          alt="Tecnología y soluciones"
+                          className="intro-image"
+                          initial={{ opacity: 0 }}
+                          animate={{ opacity: 1 }}
+                          transition={{ delay: 1.5, duration: 1 }}
+                        />
       </section>
 
       {/* Sección de Control de Calidad */}
